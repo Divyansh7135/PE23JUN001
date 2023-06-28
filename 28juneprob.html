@@ -1,0 +1,22 @@
+<html>
+
+<body>
+
+    <script>
+        const n = window.prompt("Welcome to  FinPlanPro Fibonacci Generator! Please enter the desired number 'n' to generate the fibonacci sequence:");
+        console.log(n)
+        let x = 0;
+        let y = 1;
+        let dn = x + y;
+        console.log(x);
+
+        while (dn < n) {
+            dn = x + y;
+            x = y;
+            y = dn;
+            document.write(dn);
+        }
+    </script>
+</body>
+
+</html>
